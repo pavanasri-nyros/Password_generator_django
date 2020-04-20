@@ -144,7 +144,7 @@ if os.getcwd() == '/app':
 
     #Allow all host headers
 
-    ALLOWED_HOSTS = []
+    ALLOWED_HOSTS = ['passwordgeneratordjango.herokuapp.com']
 
     DEBUG = True
 
